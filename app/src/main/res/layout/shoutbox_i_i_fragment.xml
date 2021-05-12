@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shoutboxii"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ui.shoutbox_II.ShoutboxIIFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+
+            <RelativeLayout
+                android:id="@+id/Rel_Layout"
+                android:layout_width="395dp"
+                android:layout_height="67dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/loadMyLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="login"
+                    android:textSize="18sp"
+                    style="@style/fontOne" />
+
+
+                <TextView
+                    android:id="@+id/loadDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toEndOf="@id/loadMyLogin"
+                    android:text="data i godzina"
+                    android:textSize="18sp"
+                    style="@style/fontOne" />
+
+                <TextView
+                    android:id="@+id/loadId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toEndOf="@id/loadDate"
+                    android:text=""
+                    android:textSize="18sp"
+                    style="@style/fontOne" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/UpdateComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_below="@id/Rel_Layout"
+                style="@style/fontTwo"
+                android:text="Send edited comment" />
+
+            <EditText
+                android:id="@+id/loadComment"
+                android:layout_width="394dp"
+                android:layout_height="568dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="start"
+                android:layout_below="@id/UpdateComment"
+                android:text="komentarz"
+                android:textSize="18sp"
+                style="@style/fontTwo" />
+
+            <ImageButton
+                android:id="@+id/deleteComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Rel_Layout"
+                android:layout_marginStart="109dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toEndOf="@id/UpdateComment"
+                android:src="@drawable/ic_delete_sweep_black_24dp"
+
+                android:text="Delete" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_settings">
+
+    <fragment
+        android:id="@+id/nav_shoutbox"
+        android:name="com.example.aleczad.ui.home.ShoutboxFragment"
+        android:label="shoutbox"
+        tools:layout="@layout/fragment_shoutbox" >
+        <action
+            android:id="@+id/action_nav_shoutbox_to_nav_shoutboxII"
+            app:destination="@id/nav_shoutboxII" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.aleczad.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_nav_settings_to_nav_shoutbox"
+            app:destination="@id/nav_shoutbox" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_shoutboxII"
+        android:name="com.example.aleczad.ui.ui.shoutbox_II.ShoutboxIIFragment"
+        android:label="shoutbox_i_i_fragment"
+        tools:layout="@layout/shoutbox_i_i_fragment" >
+        <action
+            android:id="@+id/action_nav_shoutboxII_to_nav_shoutbox"
+            app:destination="@id/nav_shoutbox" />
+    </fragment>
+
+</navigation>
