@@ -23,20 +23,25 @@ To run the application you must:
 ## Showcase
 - Adding a comment.
 
-![Chat_AddComment](https://user-images.githubusercontent.com/75611423/118484092-1f2b6300-b717-11eb-9858-516244e495b0.gif)
+![Chat_AddComment](https://user-images.githubusercontent.com/75611423/118526047-21ee7e00-b740-11eb-89ae-544f95c21cce.gif)
+
 
 - Investigate to modify comments.
 
-![Chat_ModifyComment](https://user-images.githubusercontent.com/75611423/118484266-53068880-b717-11eb-9f2b-1cd1470a7dd8.gif)
+![Chat_ModifyComment](https://user-images.githubusercontent.com/75611423/118526084-29ae2280-b740-11eb-897f-3ad31e381088.gif)
+
 
 - Swipe to delete feature.
 
-![Chat_SwipeToDelete](https://user-images.githubusercontent.com/75611423/118484325-6285d180-b717-11eb-96f4-36288e993fbd.gif)
+![Chat_SwipeToDelete](https://user-images.githubusercontent.com/75611423/118526108-2e72d680-b740-11eb-8f97-821dad85d601.gif)
+
 
 - Unauthorized user tries to modify the comment.
 
-![Chat_Unauthorized](https://user-images.githubusercontent.com/75611423/118484506-96f98d80-b717-11eb-99cc-f375d609cb3d.gif)
+![Chat_Unauthorized](https://user-images.githubusercontent.com/75611423/118526119-316dc700-b740-11eb-8164-714ec51349c1.gif)
+
 
 - No Internet Access alert
 
-![Chat_NoInternetAccess](https://user-images.githubusercontent.com/75611423/118484593-b1cc0200-b717-11eb-92af-c4a6fd5472d8.gif)
+![Chat_NoInternetAccess](https://user-images.githubusercontent.com/75611423/118526127-3468b780-b740-11eb-8b29-5a9300ad8d50.gif)
+
